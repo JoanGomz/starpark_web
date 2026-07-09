@@ -10,7 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-image: url("../images/fotos/Home/imagenes/BACKGROUND.png");
+  background-image: url("images/fotos/Home/imagenes/BACKGROUND.webp");
   
 }
 .opciones{
@@ -358,6 +358,9 @@ a{
     height: auto;
     filter: drop-shadow(0 0 10px rgb(93, 189, 204));
     transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 17rem;
+    top: -13rem;
     &:hover {
       transform: scale(1.1);
 

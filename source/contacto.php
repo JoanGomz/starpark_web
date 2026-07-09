@@ -14,7 +14,7 @@ include_once '../includes/head.php';
             <div class="info-container">
                 <!-- Estructura con imagen de monitor y texto superpuesto -->
                 <div class="monitor-container">
-                    <img src="../images/fotos/contactos/imagenes/domink.png" alt="Personaje representate del parque">
+                    <img src="../images/fotos/contactos/imagenes/dominic.png" alt="Personaje representate del parque">
                     <div class="escribenos">
                         <h3>ESCRIBENOS AL SIGUIENTE NUMERO</h3>
                         <img src="../images/fotos/contactos/imagenes/numero.png" alt="numero al que se puede escribir">
@@ -122,7 +122,7 @@ include_once '../includes/head.php';
                                     href="politica.php">https://www.starpark.com.co/politica</a></label>
                         </div>
                         <button class="contact-register-btn" type="submit"><img
-                                src="../images/fotos/contactos/imagenes/registrar.png"
+                                src="images/fotos/contactos/imagenes/REGISTRAR.png"
                                 alt="Boton para registrarse"></button>
                     </form>
                 </div>

@@ -1,7 +1,7 @@
 <?php
 // Configuraciones generales del sitio
 define('SITE_NAME', 'StarPark');
-define('SITE_URL', 'http://localhost/paginav2-2025/');
+define('SITE_URL', 'https://starpark.spoondecolombia.com/');
 //https://jgdigital.com.co/paginaweb2025/
 // Rutas del sitio
 define('ROOT_PATH', dirname(__DIR__) . '/');

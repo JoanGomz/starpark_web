@@ -7,14 +7,14 @@ $use_carousel = true;
 include_once '../includes/head.php';
 ?>
 <div class="fondo-header">
-  <img src="..\images\fotos\Home\imagenes\FONDO.png" alt="fondo">
+  <img src="<?php echo SITE_URL; ?>images/fotos/Home/imagenes/fondo.png" alt="fondo">
   <div class=" social-media">
     <a href="https://www.facebook.com/starparkco" target="_blank"><img
-        src="<?php echo SITE_URL; ?>images/fotos/Home/Botones/facebook.png" alt="Facebook"></a>
+        src="<?php echo SITE_URL; ?>/images/fotos/Home/Botones/facebook.png" alt="Facebook"></a>
     <a href="https://www.instagram.com/starparkco/?hl=es-la" target="_blank"><img
-        src="<?php echo SITE_URL; ?>images/fotos/Home/Botones/instagram.png" alt="Instagram"></a>
+        src="<?php echo SITE_URL; ?>/images/fotos/Home/Botones/instagram.png" alt="Instagram"></a>
     <a href="http://tiktok.com/@starparkco?lang=es" target="_blank"><img
-        src="<?php echo SITE_URL; ?>images/fotos/Home/Botones/tiktok.png" alt="TikTok"></a>
+        src="<?php echo SITE_URL; ?>/images/fotos/Home/Botones/tiktok.png" alt="TikTok"></a>
   </div>
 </div>
 <div class="inicio-video-container">
@@ -27,28 +27,28 @@ include_once '../includes/head.php';
 
   <!-- LOGO -->
   <div class="logo-container">
-    <img src="../images/fotos/Home/Botones/Starpark.png" alt="Logo StarPark">
+    <img src="/images/fotos/Home/Botones/Starpark.png" alt="Logo StarPark">
   </div>
 
   <!-- BOTONES -->
   <nav class="nav-container">
     <div class="boton-izquierdo">
-      <a href="../source/parques.php">
+      <a href="../parques.php">
         <img src="../images/fotos/Home/Botones/parques.png" alt="Botón Parques">
       </a>
     </div>
     <div class="button-center">
-      <a href="../source/servicios.php">
+      <a href="../servicios.php">
         <img src="../images/fotos/Home/Botones/fiestas.png" alt="Botón Servicos">
       </a>
     </div>
     <div class="boton-derecho">
-      <a href="../source/contacto.php">
-        <img src="../images/fotos/Home/Botones/contacto.png" alt="Botón Contacto">
+      <a href="../contacto.php">
+        <img src="../images/fotos/Home/Botones/Contacto.png" alt="Botón Contacto">
       </a>
     </div>
     <div class="boton-derecho-1">
-      <a href="../source/promociones.php">
+      <a href="../promociones.php">
         <img src="../images/fotos/Home/Botones/promociones.png" alt="Botón Servicos">
       </a>
     </div>
@@ -58,8 +58,8 @@ include_once '../includes/head.php';
 
 <!-- Carrusel -->
 <main class="carousel-container">
-  <div class="title-novedades">
-    <img src="../images/fotos/Home/Botones/Novedades.png" alt="Novedades">
+  <div  class="title-novedades">
+    <img  src="../images/fotos/Home/Botones/Novedades.png" alt="Novedades">
   </div>
 
   <div class="carousel">
@@ -80,7 +80,7 @@ include_once '../includes/head.php';
 
   <!-- Sedes -->
   <div class="sedes">
-    <div>
+    <div style="width:100%;">
       <img src="../images/fotos/Home/imagenes/nuestras_sedes.png" alt="Nuestras sedes">
     </div>
     <div class="mapa">
@@ -92,7 +92,7 @@ include_once '../includes/head.php';
     </div>
   </div>
   </div>
-  <img class="footer_2" src="../images/fotos/Home/imagenes/Footer2.png" alt="footer superior">
+  <img class="footer_2"  src="../images/fotos/Home/imagenes/Footer2.png" alt="footer superior">
 </main>
 
 

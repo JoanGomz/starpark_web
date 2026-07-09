@@ -353,6 +353,9 @@
 }
 @media(min-width:320px) and (max-width:428px)
 {
+    .servicios-space-background{
+    height: 149vh;
+  }
   .title-servicios{
     img{
       position: relative;
@@ -400,7 +403,12 @@
   .cta-section-service{
     img{
       width: 68%;
+      top:7rem;
     }
+  }
+  .service-foot{
+      top: -72.4rem;
+      transform: rotate(4deg);
   }
 }
 @media(min-width:428px) and (max-width:429px){

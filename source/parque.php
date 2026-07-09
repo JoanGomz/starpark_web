@@ -14,7 +14,7 @@ $parques = [
         'nombre' => 'HAYUELOS',
         'park_horarios' => '../images/fotos/Planetas_Sedes/Hayuelos/imagenes/Horarios.png',
         'planeta' => '../images/fotos/Planetas_Sedes/Hayuelos/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Hayuelos/imagenes/ubicacion.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Hayuelos/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3202325689',
         'park-site' => '../images/fotos/Planetas_Sedes/Hayuelos/imagenes/Hayuelos.png',
         'galeria' => [
@@ -33,21 +33,21 @@ $parques = [
         'nombre' => 'ALTAVISTA',
         'park_horarios' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/Horarios.png',
         'planeta' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/ubicacion.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3202325661',
         'park-site' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/altavista.png',
         'galeria' => [
             '../images/altavista.mp4',
 
         ],
-         'atracciones' => '../images/fotos/Planetas_Sedes/altavista/imagenes/ALT.png',
+         'atracciones' => '../images/fotos/Planetas_Sedes/Altavista/imagenes/ALT.png',
         'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8686.220590919638!2d-74.12426633529013!3d4.533202041794881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa21ead67e6a9%3A0xe6225f65a30424cb!2sAltavista%20Mall!5e1!3m2!1sen!2sco!4v1737149046045!5m2!1sen!2sco'
     ],
     'boulevarniza' => [
         'nombre' => 'BULEVAR',
         'park_horarios' => '../images/fotos/Planetas_Sedes/BulevarNiza/imagenes/Horario.png',
         'planeta' => '../images/fotos/Planetas_Sedes/BulevarNiza/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/BulevarNiza/imagenes/ubicacion.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/BulevarNiza/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3208587729',
         'park-site' => '../images/fotos/Planetas_Sedes/BulevarNiza/imagenes/bulevar.png',
         'galeria' => [
@@ -75,7 +75,7 @@ $parques = [
         'nombre' => 'MOSQUERA',
         'park_horarios' => '../images/fotos/Planetas_Sedes/Mosquera/imagenes/Horario.png',
         'planeta' => '../images/fotos/Planetas_Sedes/Mosquera/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Mosquera/imagenes/ubicacion.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Mosquera/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3112470566',
         'park-site' => '../images/fotos/Planetas_Sedes/Mosquera/imagenes/Mosquera.png',
         'galeria' => [
@@ -88,7 +88,7 @@ $parques = [
         'nombre' => 'NEIVA',
         'park_horarios' => '../images/fotos/Planetas_Sedes/Neiva/imagenes/Horario.png',
         'planeta' => '../images/fotos/Planetas_Sedes/Neiva/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Neiva/imagenes/ubicacion.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Neiva/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3118080091',
         'park-site' => '../images/fotos/Planetas_Sedes/Neiva/imagenes/Neiva.png',
         'galeria' => [
@@ -100,37 +100,37 @@ $parques = [
     ],
     'bello' => [
         'nombre' => 'BELLO',
-        'park_horarios' => '../images/fotos/Planetas_Sedes/Bello/imagenes/Horario.png',
-        'planeta' => '../images/fotos/Planetas_Sedes/Bello/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Bello/imagenes/ubicacion.png',
+        'park_horarios' => '../images/fotos/Planetas_Sedes/bello/imagenes/Horario.png',
+        'planeta' => '../images/fotos/Planetas_Sedes/bello/imagenes/planeta.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/bello/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3118080092',
         'park-site' => '../images/fotos/Planetas_Sedes/bello/imagenes/Bello.png',
         'galeria' => [
             '../images/bello.mp4',
 
         ],
-         'atracciones' => '../images/fotos/Planetas_Sedes/Bello/imagenes/BEL.png',
+         'atracciones' => '../images/fotos/Planetas_Sedes/bello/imagenes/BEL.png',
         'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4920.634633323762!2d-75.54557562500864!3d6.339318993650392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9a57f14d2b%3A0xaa895da5804ee322!2sPuerta%20del%20Norte%20Shopping%20Mall!5e1!3m2!1sen!2sco!4v1737478075477!5m2!1sen!2sco'
     ],
     'mayorca' => [
         'nombre' => 'MAYORCA',
-        'park_horarios' => '../images/fotos/Planetas_Sedes/Mayorca/imagenes/Horario.png',
-        'planeta' => '../images/fotos/Planetas_Sedes/Mayorca/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Mayorca/imagenes/ubicacion.png',
+        'park_horarios' => '../images/fotos/Planetas_Sedes/Mayorca/Imagenes/Horario.png',
+        'planeta' => '../images/fotos/Planetas_Sedes/Mayorca/Imagenes/planeta.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Mayorca/Imagenes/Ubicacion.png',
         'telefono' => '(+57) 3145442606',
         'park-site' => '../images/fotos/Planetas_Sedes/Mayorca/Imagenes/Mayorca.png',
         'galeria' => [
             '../images/mayorca.mp4',
 
         ],
-         'atracciones' => '../images/fotos/Planetas_Sedes/Mayorca/imagenes/MAY.png',
+         'atracciones' => '../images/fotos/Planetas_Sedes/Mayorca/Imagenes/MAY.png',
         'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4922.310650581708!2d-75.60757417501021!3d6.161161493826045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683cc2769fda9%3A0x997386a695af1002!2sMayorca%20Mega%20Plaza!5e1!3m2!1sen!2sco!4v1737478320985!5m2!1sen!2sco'
     ],
     'cali' => [
         'nombre' => 'CALI',
-        'park_horarios' => '../images/fotos/Planetas_Sedes/cali/imagenes/Horario.png',
-        'planeta' => '../images/fotos/Planetas_Sedes/cali/imagenes/planeta.png',
-        'park_ubicacion' => '../images/fotos/Planetas_Sedes/cali/imagenes/Ubicacion.png',
+        'park_horarios' => '../images/fotos/Planetas_Sedes/Cali/imagenes/Horario.png',
+        'planeta' => '../images/fotos/Planetas_Sedes/Cali/imagenes/planeta.png',
+        'park_ubicacion' => '../images/fotos/Planetas_Sedes/Cali/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3118080084',
         'park-site' => '../images/fotos/Planetas_Sedes/Cali/imagenes/cali.png',
         'galeria' => [
@@ -151,13 +151,13 @@ $parques = [
 
            'galeria' => [
             '../images/cucuta.mp4',
-            
     ],
+    'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.744220890885!2d-72.48180892417834!3d7.921763305335514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66452eacf9c261%3A0xeade51acde6a2ee5!2sCentro%20Comercial%20Jard%C3%ADn%20Plaza%20C%C3%BAcuta!5e0!3m2!1ses-419!2sco!4v1776713831889!5m2!1ses-419!2sco'
 
     ],
     'villavo' => [
         'nombre' => 'VILLAVO',
-        'park_horarios' => '../images/fotos/Planetas_Sedes/Villavo/imagenes/Horario.png',
+        'park_horarios' => '../images/fotos/Planetas_Sedes/villavo/imagenes/Horario.png',
         'planeta' => '../images/fotos/Planetas_Sedes/villavo/imagenes/planeta.png',
         'park_ubicacion' => '../images/fotos/Planetas_Sedes/villavo/imagenes/Ubicacion.png',
         'telefono' => '(+57) 3118080084',
@@ -167,7 +167,7 @@ $parques = [
          'galeria' => [
             '../images/villavo.mp4',
             
-    ],
+    ],    'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.4797717599145!2d-73.64128132418698!3d4.125576846373119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2f27e8641e49%3A0x3593729f14445dec!2sCentro%20Comercial%20Viva!5e0!3m2!1ses-419!2sco!4v1776714060063!5m2!1ses-419!2sco'
 
     ],
 ];
@@ -190,7 +190,7 @@ $parque = $parques[$parque_id];
         <div class="info-parques-floor">
             <header class="parque-images-floor">
                 <!-- Sección del carrusel -->
-                <main class="park-carousel-container">
+                <main class="park-carousel-container" style="top:-5rem;">
                     <!-- Almacenamos las imágenes como JSON para que JavaScript las procese -->
                     <div class="galeria-container" data-imagenes='<?php echo json_encode($parque['galeria']); ?>'
                         style="display:none;"></div>
@@ -215,9 +215,7 @@ $parque = $parques[$parque_id];
                     <img src="../images/abajo.png" alt="Flechas indicando hacia abajo">
                 </div>
             </section>
-            <div class="flechas-1">
-                <img src="../images/abajo.png" alt="Flechas indicando hacia abajo">
-            </div>
+            
             </section>
             <div class="sede-container">
                 <div class="park-site">

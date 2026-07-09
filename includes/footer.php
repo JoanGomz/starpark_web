@@ -20,19 +20,19 @@
         <div class="footer-column central">
 
             <ul>
-                <li><a href="<?php echo SITE_URL; ?>source/preguntasfrecuentes.php">Preguntas Frecuentes</a></li>
-                <li><a href="<?php echo SITE_URL; ?>source/nuestraempresa.php">Nuestra Empresa</a></li>
-                <li><a href="<?php echo SITE_URL; ?>source/servicio.php">Servicio Al Cliente</a></li>
-                <li><a href="<?php echo SITE_URL; ?>source/servicios.php">Fiestas</a></li>
+                <li><a href="<?php echo SITE_URL; ?>preguntasfrecuentes.php">Preguntas Frecuentes</a></li>
+                <li><a href="<?php echo SITE_URL; ?>nuestraempresa.php">Nuestra Empresa</a></li>
+                <li><a href="<?php echo SITE_URL; ?>servicio.php">Servicio Al Cliente</a></li>
+                <li><a href="<?php echo SITE_URL; ?>servicios.php">Fiestas</a></li>
             </ul>
         </div>
 
         <div class="footer-column">
 
             <ul>
-                <li><a href="<?php echo SITE_URL; ?>source/politica.php">Política Tratamiento De Datos</a></li>
-                <li><a href="<?php echo SITE_URL; ?>source/contacto.php">Trabaja Con Nosotros</a></li>
-                <li><a href="<?php echo SITE_URL; ?>source/parques.php">Parques</a></li>
+                <li><a href="<?php echo SITE_URL; ?>politica.php">Política Tratamiento De Datos</a></li>
+                <li><a href="<?php echo SITE_URL; ?>contacto.php">Trabaja Con Nosotros</a></li>
+                <li><a href="<?php echo SITE_URL; ?>parques.php">Parques</a></li>
                 <li><button onclick="proximamente()" class="blog">Blog</button></li>
             </ul>
         </div>

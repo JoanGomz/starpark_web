@@ -15,33 +15,33 @@ include_once '../includes/head.php';
         <article class="starpark-locations location-section">
             <!-- Bogotá Central -->
             <section class="location-central bogota">
-                <img src="../images/fotos/Parques/imagenes/bogotá.png" alt="SedesEnBogotá">
+                <img src="../images/fotos/Parques/imagenes/bogota.png" alt="SedesEnBogotá">
             </section>
             <!-- Primera fila de planetas - Bogotá -->
-            <section class="planets-row">
+            <section class="planets-row planets-bogota">
                 <div class="planet-item planet-orange">
-                    <a href="../source/parque.php?id=hayuelos">
+                    <a href="parque.php?id=hayuelos">
                         <div class="planet-content">
                             <img src="../images/fotos/Parques/botones/hayuelos.png" alt="Hayuelos">
                         </div>
                     </a>
                 </div>
                 <div class="planet-item planet-purple">
-                    <a href="../source/parque.php?id=altavista">
+                    <a href="parque.php?id=altavista">
                         <div class="planet-content">
                             <img src="../images/fotos/Parques/botones/altavista.png" alt="Altavista">
                         </div>
                     </a>
                 </div>
                 <div class="planet-item planet-yellow">
-                    <a href="../source/parque.php?id=boulevarniza">
+                    <a href="parque.php?id=boulevarniza">
                         <div class="planet-content">
                             <img src="../images/fotos/Parques/botones/bulevar_niza.png" alt="Bulevar Niza">
                         </div>
                     </a>
                 </div>
                 <div class="planet-item planet-pink">
-                    <a href="../source/parque.php?id=paseovillaDelrio">
+                    <a href="parque.php?id=paseovillaDelrio">
                         <div class="planet-content">
                             <img src="../images/fotos/Parques/botones/paseo_villa_del_rio.png"
                                 alt="Paseo Villa del Río">
@@ -55,41 +55,41 @@ include_once '../includes/head.php';
         <article class="resto-pais location-section">
             <!-- Resto de países title -->
             <section class="location-central resto-pais-planetas ">
-                <img src="../images/fotos/Parques/imagenes/resto_del_país.png" alt="RestoDelPaís">
+                <img src="../images/fotos/Parques/imagenes/resto_del_pais.png" alt="RestoDelPaís">
             </section>
             <!-- Segunda fila de planetas - Resto del país -->
-            <section class="planets-row">
+            <section class="planets-row planets-row-resto">
                 <div class="superior">
                     <div class="planet-item2 planet-blue">
-                        <a href="../source/parque.php?id=mosquera">
+                        <a href="parque.php?id=mosquera">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/mosquera.png" alt="Mosquera">
                             </div>
                         </a>
                     </div>
                     <div class="planet-item planet-green">
-                        <a href="../source/parque.php?id=bello">
+                        <a href="parque.php?id=bello">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/bello.png" alt="Bello">
                             </div>
                         </a>
                     </div>
                     <div class="planet-item planet-gray">
-                        <a href="../source/parque.php?id=cucuta">
+                        <a href="parque.php?id=cucuta">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/cucuta.png" alt="cucuta">
                             </div>
                         </a>
                     </div>
                     <div class="planet-item planet-black">
-                        <a href="../source/parque.php?id=villavo">
+                        <a href="parque.php?id=villavo">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/villavo.png" alt="villavo">
                             </div>
                         </a>
                     </div>
                     <div class="planet-item2 planet-saturn">
-                        <a href="../source/parque.php?id=cali">
+                        <a href="parque.php?id=cali">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/cali.png" alt="Cali">
                             </div>
@@ -98,14 +98,14 @@ include_once '../includes/head.php';
                 </div>
                 <div class="inferior">
                     <div class="planet-item planet-red">
-                        <a href="../source/parque.php?id=neiva">
+                        <a href="parque.php?id=neiva">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/neiva.png" alt="Neiva">
                             </div>
                         </a>
                     </div>
                     <div class="planet-item planet-earth">
-                        <a href="../source/parque.php?id=mayorca">
+                        <a href="parque.php?id=mayorca">
                             <div class="planet-content">
                                 <img src="../images/fotos/Parques/botones/mayorca.png" alt="Mayorca">
                             </div>
@@ -124,7 +124,7 @@ include_once '../includes/head.php';
             <img src="../images/ver-mas.png" alt="Ver más">
         </button>
         <div id="myDropdown" class="dropdown-content">
-            <a href="../source/index.php" class="dominik-icon ">
+            <a href="index.php" class="dominik-icon ">
                 <img src="../images/fotos/Home/Botones/DOMINIC.png" alt="Dominick">
             </a>
             <div class="imagen-parques">

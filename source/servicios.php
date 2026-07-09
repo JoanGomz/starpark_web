@@ -8,7 +8,7 @@ $whatsapp_link_especial = "https://wa.me/573107744480";
 $fotos = [
 
     'galeria' => [
-        '../images/fotos/servicios/imagenes/Fiestasinfantiles.png',
+        '../images/fotos/servicios/imagenes/FiestasInfantiles.png',
         '../images/fotos/servicios/imagenes/FiestasColegios.png',
         '../images/fotos/servicios/imagenes/EventosEmpresariales.png',
 
