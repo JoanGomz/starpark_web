@@ -11,12 +11,12 @@ include_once '../includes/head.php';
     <!-- contenedor principal con la imagen y formulario -->
     <main class="main-container-servicio">
         <section class="servicio-left">
-            <img src="../images/fotos/servicio_al_cliente/imagenes/informacion.png" alt="Información"> 
+            <img src="../images/fotos/servicio_al_cliente/imagenes/informacion.png" alt="Información">
         </section>
 
         <section class="servicio-right">
             <div class="service-form-container">
-                <img src="../images/fotos/servicio_al_cliente/imagenes/servicio_al_cliente.png" >
+                <img src="../images/fotos/servicio_al_cliente/imagenes/servicio_al_cliente.png">
 
                 <form class="serviceForm" action="procesarservicio.php" method="post">
                     <div class="service-form-input">
@@ -54,6 +54,8 @@ include_once '../includes/head.php';
                                 <option value="mayorca">Mayorca</option>
                                 <option value="mosquera">Mosquera</option>
                                 <option value="neiva">Neiva</option>
+                                <option value="cucuta">Cucuta</option>
+                                <option value="villavicencio">Villavicencio</option>
                             </select>
                             <label for="ubicacion">Ubicación del parque</label>
 
@@ -68,21 +70,22 @@ include_once '../includes/head.php';
                         </div>
                     </div>
                     <div class="contact-form-terms">
-                            <input type="checkbox" class="terminos" id="terminos" name="terminos" required>
-                            <label class="condiciones" for="terminos">APLICAN TERMINOS Y CONDICIONES
-                                </label><br>
-                                
-                                <div class="Terminos_adicionales">
-                                <span>Antes de presentar una PQRS</span> 
-                                <span>Politica de tratamiento de datos</span>
-                                </div>
-                                <div class="Terminos_adicionales adi">
-                                <span>Autorizacion de tratamiento de datos</span>
-                                <span>Aviso de privacidad </span>
-                                </div> 
+                        <input type="checkbox" class="terminos" id="terminos" name="terminos" required>
+                        <label class="condiciones" for="terminos">APLICAN TERMINOS Y CONDICIONES
+                        </label><br>
+
+                        <div class="Terminos_adicionales">
+                            <span>Antes de presentar una PQRS</span>
+                            <span>Politica de tratamiento de datos</span>
                         </div>
+                        <div class="Terminos_adicionales adi">
+                            <span>Autorizacion de tratamiento de datos</span>
+                            <span>Aviso de privacidad </span>
+                        </div>
+                    </div>
                     <div class="service-form-submit">
-                        <button type="submit"><img src="../images/fotos/servicio_al_cliente/imagenes/BOTON.png" alt="Boton de enviar"></button>
+                        <button type="submit"><img src="../images/fotos/servicio_al_cliente/imagenes/BOTON.png"
+                                alt="Boton de enviar"></button>
                     </div>
                 </form>
             </div>
@@ -92,7 +95,7 @@ include_once '../includes/head.php';
 <!-- Botones de whatsapp y dominick, lado derecho -->
 <div class="foot-service">
     <img src="../images/fotos/Home/imagenes/Footer2.png" alt="">
-    </div>
+</div>
 <?php
 // Incluye el footer
 include_once '../includes/footer.php';

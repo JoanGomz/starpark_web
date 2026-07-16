@@ -1490,7 +1490,7 @@ body {
 	width: 2rem;
 	text-align: center;
 	color: #fff;
-	z-index: 2
+	z-index: 2;
 }
 
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input .contact-input-icon input,
@@ -1503,6 +1503,64 @@ body {
 	border-radius: 1rem;
 	color: #fff;
 	height: 0vh
+}
+.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input .contact-input-icon select{
+	width: 100%;
+	font-size: large;
+	padding: 2rem .9375rem 2rem 5rem;
+	background: linear-gradient(90deg, rgba(20, 48, 105, 0.84) 1%, rgb(16, 82, 132) 37%, rgb(16, 81, 135) 100%);
+	border: .3rem solid #05f3ff;
+	border-radius: 1rem;
+	color: #ffff;
+	background-color: #105187;	
+}
+
+.contact-form-input-file {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contact-form-input-file .comentarios {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-form-input-file .custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, rgba(20, 48, 105, 0.84) 1%, rgb(16, 82, 132) 37%, rgb(16, 81, 135) 100%); 
+    color: #ffff;  
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+.contact-form-input-file .custom-file-upload i {
+    font-size: 18px;
+    color: #00bcd4; 
+}
+
+.contact-form-input-file .custom-file-upload:hover {
+    background-color: #e9ecef;
+    border-color: #00bcd4;
+    color: #212529;
+}
+
+.contact-form-input-file .comentarios:focus + .custom-file-upload {
+    outline: 2px solid #00bcd4;
 }
 
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input .contact-input-icon textarea {
@@ -1521,6 +1579,7 @@ body {
 
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input input:focus+label,
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input input:valid+label,
+.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input select:valid+label,
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input textarea:focus+label,
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-input textarea:valid+label {
 	top: -0.625rem;

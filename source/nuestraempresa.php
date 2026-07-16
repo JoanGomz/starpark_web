@@ -49,6 +49,8 @@ include_once '../includes/head.php';
                         <p>- San pedro Plaza, en Neiva</p>
                         <p>- Ecoplaza, en Mosquera</p>
                         <p>- Cosmocentro, en Cali</p>
+                        <p>- Jardin Plaza, Cucuta</p>
+                        <p>- Viva, Villavicencio</p>
                     </div>
                     <!-- Dominic animado -->
                     <div class="dominic-container dominic-mobile">
