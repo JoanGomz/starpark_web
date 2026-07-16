@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32"
         href="https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1783697587_isotipo%20%281%29.png">
     <?php if (isset($use_carousel) && $use_carousel): ?>
-    <script defer src="<?php echo SITE_URL; ?>js/carousel.js"></script>
+    <script defer src="<?php echo SITE_URL; ?>js/carousel.js?v=20260716-3"></script>
     <?php endif; ?>
     <?php if (isset($use_carouselParque) && $use_carouselParque): ?>
     <script defer src="<?php echo SITE_URL; ?>js/carouselParque.js"></script>

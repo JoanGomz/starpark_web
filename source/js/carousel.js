@@ -17,22 +17,36 @@ function startAutoplay() {
     }
 }
 
- const token = "EAAtAVZBDoEV0BQ0roEJmLwgdGtr2nBc7e3E9en4ySqJBstSV3WFHuZA0LF3HMFiU7vdBIsXyDCr1CFxe1TMxdOOCWs23znZCEgKdq8Le6MLjVKBwDjSpJHJwkMeAYWHMZA9NAkCgT0X8ZCylW3odRuUJ8R40ZBCUkqna2Poa2iAn3cuR4bvlybHk8ZAzFr4";
+
+
 
 const reels = async () => {
     try {
-        const response = await fetch(
-            `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp&access_token=${token}`
-        );
-        const datos = await response.json(); 
+        const response = await fetch('/instagram_feed.php', {
+            headers: {
+                Accept: 'application/json'
+            },
+            cache: 'no-store'
+        });
 
-        MostrarPost(datos);
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data.data)) {
+            throw new Error('Instagram no devolvió una lista válida.');
+        }
+
+        window.MostrarPost(data);
     } catch (error) {
-        console.log("Error: no se pudo conectar con la API", error);
+        console.error('Error cargando los Reels:', error);
     }
 };
+
 document.addEventListener("DOMContentLoaded", () => {
-const MostrarPost = (reels) => {
+window.MostrarPost = (reels) => {
     const containerReels = document.querySelector(".carousel-items");
 
     if (!containerReels) {
