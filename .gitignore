@@ -33,3 +33,6 @@ images/villavo.mp4
 
 .vscode/
 /vendor
+source/cache/
+*.backup
+*.backup-*
