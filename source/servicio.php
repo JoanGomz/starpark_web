@@ -13,7 +13,6 @@ include_once '../includes/head.php';
         --color-success: #10b981;
     }
 
-    /* --- Capa de Fondo Completa (Overlay Compartido) --- */
     .pop-up-success,
     .pop-up-error {
         position: fixed;
@@ -32,7 +31,6 @@ include_once '../includes/head.php';
         transition: opacity 0.3s ease;
     }
 
-    /* --- Caja de Contenido (El cuadro central compartido) --- */
     .pop-up-success .pop-up-contenido,
     .pop-up-error .pop-up-contenido {
         background: linear-gradient(169deg, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
@@ -54,16 +52,14 @@ include_once '../includes/head.php';
 
     .pop-up-success .pop-up-contenido {
         border-top: 4px solid rgb(5, 243, 164);
-        /* Borde sutil verde */
     }
 
-    /* --- Elementos Internos Compartidos --- */
     .pop-up-icono {
         font-size: 3.5rem;
         margin-bottom: 15px;
     }
 
-    /* Color dinámico del icono */
+
     .pop-up-error .pop-up-icono {
         color: var(--color-error);
     }
@@ -89,7 +85,6 @@ include_once '../includes/head.php';
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    /* --- Botón Estilizado Base --- */
     .pop-up-btn {
         display: inline-block;
         color: white;
@@ -102,7 +97,7 @@ include_once '../includes/head.php';
         transition: background-color 0.2s ease, transform 0.1s ease;
     }
 
-    /* --- Comportamiento y color del botón en ERROR --- */
+
     .pop-up-error .pop-up-btn {
         background-color: var(--color-error);
         box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.3);
@@ -110,11 +105,9 @@ include_once '../includes/head.php';
 
     .pop-up-error .pop-up-btn:hover {
         background-color: #dc2626;
-        /* Rojo más oscuro */
         transform: translateY(-1px);
     }
 
-    /* --- Comportamiento y color del botón en ÉXITO --- */
     .pop-up-success .pop-up-btn {
         background-color: var(--color-success);
         box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.3);
@@ -122,16 +115,13 @@ include_once '../includes/head.php';
 
     .pop-up-success .pop-up-btn:hover {
         background-color: #059669;
-        /* Verde más oscuro */
         transform: translateY(-1px);
     }
 
-    /* Estado activo global para ambos botones */
     .pop-up-btn:active {
         transform: translateY(1px);
     }
 
-    /* --- Animaciones CSS --- */
     @keyframes popIn {
         from {
             transform: scale(0.8);
@@ -186,23 +176,37 @@ include_once '../includes/head.php';
                             <i class="fa-solid fa-location-dot"></i>
                             <select id="ubicacion" name="ubicacion" required>
                                 <option value="" disabled selected></option>
-                                <option value="altavista">Altavista</option>
-                                <option value="bulevar_niza">Bulevar Niza</option>
-                                <option value="hayuelos">Hayuelos</option>
-                                <option value="paseo_villa_del_rio">Paseo Villa del Río</option>
-                                <option value="bello">Bello</option>
-                                <option value="cali">Cali</option>
-                                <option value="mayorca">Mayorca</option>
-                                <option value="mosquera">Mosquera</option>
-                                <option value="neiva">Neiva</option>
-                                <option value="cucuta">Cucuta</option>
-                                <option value="villavicencio">Villavicencio</option>
+                                <option value="Altavista">Altavista</option>
+                                <option value="Bulevar Niza">Bulevar Niza</option>
+                                <option value="Hayuelos">Hayuelos</option>
+                                <option value="Paseo Villa del Rio">Paseo Villa del Río</option>
+                                <option value="Bello">Bello</option>
+                                <option value="Cali">Cali</option>
+                                <option value="Mayorca">Mayorca</option>
+                                <option value="Mosquera">Mosquera</option>
+                                <option value="Neiva">Neiva</option>
+                                <option value="Cúcuta">Cúcuta</option>
+                                <option value="Villavicencio">Villavicencio</option>
                             </select>
                             <label for="ubicacion">Ubicación del parque</label>
 
                         </div>
                     </div>
+                    <div class="service-form-input">
+                        <div class="service-form-group">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <select id="ubicacion" name="tipo" required>
+                                <option value="" disabled selected></option>
+                                <option value="Peticion">Petición</option>
+                                <option value="Queja">Queja</option>
+                                <option value="Sugerencia">Segurencia</option>
+                                <option value="Reclamo">Reclamo</option>
+                            </select>
+                            <label for="ubicacion">Peticiones, Quejas, Sugerencia o Reclamos
+                            </label>
 
+                        </div>
+                    </div>
                     <div class="service-form-input">
                         <div class="service-form-group">
                             <i class="fa-solid fa-comment-dots"></i>

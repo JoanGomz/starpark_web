@@ -11,6 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $apellido    = strip_tags(trim($_POST['apellido'] ?? ''));
     $email       = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
     $telefono    = strip_tags(trim($_POST['telefono'] ?? ''));
+    $tipo        = strip_tags(trim($_POST['tipo'] ?? ''));
     $direccion   = strip_tags(trim($_POST['ubicacion'] ?? ''));
     $comentario  = strip_tags(trim($_POST['descripcion'] ?? ''));
 
@@ -21,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $messageHtml = "
         <h2>Nuevo mensaje de Servicio al Cliente - Star Park</h2>
+        <h3>{$tipo}</h3>
         <p><strong>Nombre:</strong> {$nombre} {$apellido}</p>
         <p><strong>Email:</strong> {$email}</p>
         <p><strong>Teléfono:</strong> {$telefono}</p>

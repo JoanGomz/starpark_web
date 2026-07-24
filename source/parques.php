@@ -124,7 +124,7 @@ include_once '../includes/head.php';
             <img src="../images/ver-mas.png" alt="Ver más">
         </button>
         <div id="myDropdown" class="dropdown-content">
-            <a href="index.php" class="dominik-icon ">
+            <a href="https://wa.me/573228264406" class="dominik-icon ">
                 <img src="../images/fotos/Home/Botones/DOMINIC.png" alt="Dominick">
             </a>
             <div class="imagen-parques">

@@ -25,7 +25,7 @@ body {
 	color: #fff;
 	gap: 2rem;
 	position: absolute;
-	left: 55%;
+	left: 44%;
 	top: 20%;
 	font-size: 19px
 }
@@ -91,7 +91,7 @@ body {
 	position: absolute;
 	top: -3.1rem;
 	gap: 3px;
-	left: 37rem;
+	left: 46.2rem;
 	z-index: 2;
 	display: flex;
 	flex-direction: row
@@ -156,7 +156,7 @@ body {
 .visible-footer {
 	height: 27%;
 	position: absolute;
-	top: 323%;
+	top: 183%;
 	right: 1rem;
 	width: 90%;
 	max-width: 500px;
@@ -216,7 +216,9 @@ body {
 	justify-content: space-between;
 	padding-top: 3rem;
 	align-items: center;
-	border-bottom: 18px solid #0a94ce
+	border-bottom: 18px solid #0a94ce;
+	position:relative;
+	z-index: 3;
 }
 
 .footer-content {
@@ -887,7 +889,9 @@ body {
 
 @media(min-width: 1000px) {
 	.footer {
-		gap: 10rem
+		gap: 10rem;
+		position:relative;
+		z-index: 2;
 	}
 
 	.footer li {
@@ -2316,7 +2320,7 @@ body {
 	}
 
 	.contact-panel .trabaja-con-nosotros {
-		height: 100%;
+		height: 55%;
 		position: absolute;
 		top: 415px
 	}
@@ -2889,7 +2893,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 .footer-company {
 	background: none;
 	position: absolute;
-	top: 88rem;
+	top: 107rem;
 	width: 100%
 }
 
@@ -2991,7 +2995,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 
 @media(min-width: 360px)and (max-width: 480px) {
 	.footer-company {
-		top: 103rem
+		top: 135rem
 	}
 }
 
@@ -3193,7 +3197,8 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	height: 43rem;
 	position: relative;
 	transform-style: preserve-3d;
-	transition: transform .6s ease-out
+	transition: transform .6s ease-out;
+	z-index:3;
 }
 
 .carousel-container .carousel .carousel-item {
@@ -4049,7 +4054,8 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	.carousel-container .carousel {
 		max-width: 100vw;
 		top: 11rem;
-		height: 33rem
+		height: 36rem;
+		z-index: 11;
 	}
 
 	.sedes {
@@ -6915,7 +6921,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
-	height: 360vh;
+	height: 325vh;
 	overflow: hidden
 }
 
@@ -6993,7 +6999,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	width: 40vw;
 	height: 50%;
 	position: relative;
-	top: 21rem;
+	top: 9rem;
 	left: 14rem
 }
 
@@ -7015,7 +7021,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	width: 62vw;
 	height: 50%;
 	position: relative;
-	top: -20rem;
+	top: -40rem;
 	left: -36rem
 }
 
@@ -7037,7 +7043,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	width: 99vw;
 	height: 50%;
 	position: relative;
-	top: -130rem;
+	top: -150rem;
 	left: 0rem;
 	z-index: -1
 }
@@ -7224,7 +7230,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	width: 100%;
 	height: 10vh;
 	position: relative;
-	top:-147.4rem;
+	top:-168.4rem;
 	transform: rotate(0.5deg);
 	z-index: 10;
 }
@@ -7715,7 +7721,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	}
 }
 
-@media(max-width: 834px) {
+@media(min-width:600px) and ( max-width: 834px) {
 	.preguntas-frecuentes-container img {
 		position: relative;
 		top: -13rem
@@ -7737,7 +7743,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	}
 }
 
-@media(max-width: 428px) {
+@media(max-width: 430px) {
 	.cta-section {
 		height: auto
 	}
@@ -8052,18 +8058,15 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
-	height: 188vh
+	height: 171vh
 }
 
 .promociones-content {
 	position: relative;
 	z-index: 2;
 	width: 100%;
-	height: 171vh;
+	height: 126vh;
 	margin: 22px auto;
-	background-image: url("../images/fotos/promociones/imagenes/centro_de_control.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	object-position: center;
 	top: -3rem
 }
@@ -8073,15 +8076,16 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	width: 30%;
 	height: 100%;
 	top: 1rem;
-	left: 42rem
+	left: 42rem;
+	z-index:12;
 }
 
 .promociones-content .boton-centro img {
 	position: relative;
 	width: 20%;
 	height: 100%;
-	top: -49rem;
-	left: 46rem
+	top: 9rem;
+	left: 48rem
 }
 
 .promociones-content .boton-der img {
@@ -8118,18 +8122,12 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	height: auto
 }
 
-.promo-center img {
-	width: 58%;
-	height: 55%;
-	position: relative;
-	top: -3rem;
-	left: 24rem
-}
 
 .fooder-promo {
-	position: absolute;
-	top: 95rem;
-	transform: rotate(1deg)
+	position: relative;
+	top: 36rem;
+	transform: rotate(1deg);
+	z-index: 13;
 }
 
 .fooder-promo img {
@@ -8140,7 +8138,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 @media(min-width: 320px)and (max-width: 450px) {
 	.promociones-content {
 		top: -4rem;
-		height: 73vh
+		height: 62vh
 	}
 
 	.promociones-content .title-promociones img {
@@ -8157,8 +8155,8 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 
 	.promociones-content .boton-centro img {
 		width: 50%;
-		top: -33rem;
-		left: 10.6rem
+		top: -14.5rem;
+		left: 9.6rem
 	}
 
 	.promociones-content .boton-der img {
@@ -8169,14 +8167,16 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 
 	.fooder-promo {
 		width: 100%;
-		height: 10%
+		height: 10%;
+		top: 12rem;
 	}
 
 	.fooder-promo img {
 		width: 100%;
 		height: 100%;
 		position: relative;
-		top: -13rem;
+		top: -29rem;
+		left: -1rem;
 		transform: rotate(2deg)
 	}
 
@@ -8202,7 +8202,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	}
 
 	.promociones-space-background {
-		height: 85vh
+		height: 57vh
 	}
 }
 @media(min-width: 1440px) and (max-width:1500px){
@@ -8261,7 +8261,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
         left: -6.2rem;
     }
     .service-foot{
-        top: -138.4rem;
+        top: -120.4rem;
     }
     .cc-parques .location-section .resto-pais-planetas img{
         top: -30rem;
@@ -8292,10 +8292,10 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
        top: 26rem; 
     }
     .service-foot{
-        top: -126.4rem;
+        top: -145.4rem;
     }
     .footer-contact{
-        top: 145rem;
+        top: 150rem;
     }
     .footer-2{
         top: 73rem;

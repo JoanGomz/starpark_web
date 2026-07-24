@@ -183,7 +183,7 @@ include_once '../includes/head.php';
                     <form class="contact-form" action="https://formsubmit.co/sistemasjoangomez@gmail.com" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="_next"
-                            value="http://localhost/starpark_web/source/contacto.php?status=success">
+                            value="https://starpark.spoondecolombia.com/contacto.php?status=success">
                         <input type="hidden" name="_cc"
                             value="desarrollo1.starpark@gmail.com,desarrollo3.starpark@gmail.com">
                         <input type="hidden" name="_captcha" value="false">

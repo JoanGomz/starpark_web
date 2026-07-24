@@ -21,7 +21,7 @@
 
             <ul>
                 <li><a href="<?php echo SITE_URL; ?>preguntasfrecuentes.php">Preguntas Frecuentes</a></li>
-                <li><a href="<?php echo SITE_URL; ?>nuestraempresa.php">Nuestra Empresa</a></li>
+                <li><a href="<?php echo SITE_URL; ?>nuestraempresa.php">Quienes Somos</a></li>
                 <li><a href="<?php echo SITE_URL; ?>servicio.php">Servicio Al Cliente</a></li>
                 <li><a href="<?php echo SITE_URL; ?>servicios.php">Fiestas</a></li>
             </ul>
