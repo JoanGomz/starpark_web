@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $apellido    = strip_tags(trim($_POST['apellido'] ?? ''));
     $email       = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
     $telefono    = strip_tags(trim($_POST['telefono'] ?? ''));
-    $tipo        = strip_tags(trim($_POST['tipo'] ?? ''));
     $direccion   = strip_tags(trim($_POST['ubicacion'] ?? ''));
     $comentario  = strip_tags(trim($_POST['descripcion'] ?? ''));
 
@@ -22,11 +21,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $messageHtml = "
         <h2>Nuevo mensaje de Servicio al Cliente - Star Park</h2>
-        <h3>{$tipo}</h3>
         <p><strong>Nombre:</strong> {$nombre} {$apellido}</p>
         <p><strong>Email:</strong> {$email}</p>
         <p><strong>Teléfono:</strong> {$telefono}</p>
-        <p><strong>Dirección:</strong> {$direccion}</p>
+        <p><strong>Centro Comercial:</strong> {$direccion}</p>
         <p><strong>Comentario:</strong><br>" . nl2br($comentario) . "</p>
     ";
 
@@ -36,19 +34,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'practicantespoon01@gmail.com';
-        $mail->Password   = 'ftuouwqwnodobaoo';
+        $mail->Username   = 'sistemasjoangomez@gmail.com';
+        $mail->Password   = 'pgkgjjbaxunukntv';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // Destinatarios
-        $mail->setFrom('practicantespoon01@gmail.com', 'Sistema Star Park');
-        $mail->addAddress('desarrollo3.starpark@gmail.com');
+        $mail->setFrom('sistemasjoangomez@gmail.com', 'Sistema Star Park');
+        $mail->addAddress('datospersonales@starpark.com.co');
         $mail->addReplyTo($email, "{$nombre} {$apellido}");
 
         //Con Copia (CC)
-        // $mail->addCC('gh@starpark.com.co');
-        $mail->addCC('desarrollo1.starpark@gmail.com');
+        // $mail->addCC('desarrollo3.starpark@gmail.com');
 
         // Contenido del correo
         $mail->isHTML(true);
