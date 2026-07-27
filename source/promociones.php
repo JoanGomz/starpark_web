@@ -13,7 +13,6 @@ $medios_promociones = [
 ];
 ?>
 <style>
-    /* 1. Contenedor del carrusel */
     .promo-carousel {
         position: relative;
         width: 100%;
@@ -24,6 +23,7 @@ $medios_promociones = [
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     .boton-centro {
@@ -206,6 +206,7 @@ $medios_promociones = [
 
         .carousel-controls {
             top: -6rem;
+            gap: 10rem;
         }
 
         .park-image-media-promo {
@@ -221,7 +222,7 @@ $medios_promociones = [
         }
 
         .fooder-promo img {
-            top: -42rem !important;
+            top: -42rem;
         }
 
     }
@@ -245,6 +246,67 @@ $medios_promociones = [
         }
     }
 
+    @media(min-width:450px) and (max-width:500px) {
+        .promo-carosuel-container {
+            overflow: hidden;
+        }
+
+        .comandcenter img {
+            width: 44rem;
+            height: 40rem;
+            top: -41px;
+        }
+
+        .carousel-prev-promo,
+        .carousel-next-promo {
+            position: relative;
+            top: 7rem;
+        }
+
+        .carousel-prev-promo img,
+        .carousel-next-promo img {
+            height: 42px;
+        }
+
+        .park-image-media-promo {
+            height: 31vh;
+            top: -14rem;
+            left: -3rem;
+            position: relative;
+        }
+
+        .boton-centro {
+            left: 1rem;
+            top: -17rem;
+        }
+
+        .carousel-controls {
+            gap: 8rem;
+            top: -25rem;
+        }
+
+        .fooder-promo img {
+            top: -37rem;
+            transform: rotate(1deg);
+        }
+
+        .promociones-content .title-promociones img {
+            top: 1rem;
+        }
+    }
+
+    @media (min-width:384px) and (max-width:400px) and (max-height:854px) and (max-height:860px) {
+        .fooder-promo img {
+            top: -35rem;
+            width: 101%;
+            left: -1rem;
+        }
+
+        .boton-centro {
+            top: 24.5rem;
+        }
+    }
+
     @media (min-width:390px) and (max-width:400px) {
         .promo-carousel-items {
             top: 44rem;
@@ -264,7 +326,7 @@ $medios_promociones = [
         }
 
         .fooder-promo img {
-            top: -34rem !important;
+            top: -34rem;
         }
     }
 </style>

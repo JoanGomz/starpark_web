@@ -91,9 +91,9 @@ function cargarMediosCarrusel(galeriaSelector, itemsSelector) {
         content.classList.add("park-image-media-service");
         content.controls = false;
         content.preload = "metadata";
-        content.autoplay = true; // <-- Corregido: Necesario para que corra el video
-        content.loop = true; // <-- Corregido
-        content.muted = true; // <-- Corregido: Evita bloqueo de los navegadores
+        content.autoplay = true;
+        content.loop = true;
+        content.muted = true;
 
         const source = document.createElement("source");
         source.src = src;
@@ -105,8 +105,10 @@ function cargarMediosCarrusel(galeriaSelector, itemsSelector) {
         img.alt = "Imagen del carrusel";
         if (itemsSelector === ".promo-carousel-items") {
           img.classList.add("park-image-media-promo");
-        } else {
+        } else if (itemsSelector === ".park-carousel-items-service") {
           img.classList.add("park-image-media-service");
+        } else {
+          img.classList.add("park-image-media");
         }
 
         if (linkFinal) {

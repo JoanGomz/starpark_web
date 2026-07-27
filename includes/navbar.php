@@ -80,7 +80,7 @@
                     <path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
                         d="M18.5 9a4 4 0 0 1 0 6M21 7a7 7 0 0 1 0 10" />
                 </svg>
-                Promociones</a></li>
+                Promos</a></li>
     </ul>
 </section>
 <div class="overlay"></div>
