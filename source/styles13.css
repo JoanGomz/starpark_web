@@ -2236,9 +2236,19 @@ body {
 	}
 
 	.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-terms a {
-		left: 0rem
+		left: -6.6rem
+	}
+	
+	.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-terms label{
+		left: 11rem;
 	}
 
+	.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-register-btn img{
+		width: 80%;
+		height: 98%;
+		position: relative;
+		top: 2rem;
+	}
 	.contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-terms input[type=checkbox] {
 		left: 10rem
 	}

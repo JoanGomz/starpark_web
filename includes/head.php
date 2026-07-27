@@ -7,20 +7,22 @@
     <title><?php echo SITE_NAME; ?></title>
 
     <!-- Usa SITE_URL para todas las rutas -->
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>styles13.css?v=<?php echo filemtime('styles13.css'); ?>">
+    <link rel="stylesheet"
+        href="http://localhost/starpark_web/source/styles13.css?v=<?php echo filemtime('styles13.css'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script defer src="<?php echo SITE_URL; ?>js/hamburgMenu.js"></script>
     <script>
-        window.SITE_URL = '<?php echo SITE_URL; ?>';
+    window.SITE_URL = '<?php echo SITE_URL; ?>';
     </script>
     <link rel="icon" type="image/png" sizes="32x32"
         href="https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1783697587_isotipo%20%281%29.png">
     <?php if (isset($use_carousel) && $use_carousel): ?>
-        <script defer src="<?php echo SITE_URL; ?>js/carousel.js?v=20260716-3"></script>
+    <script defer src="<?php echo SITE_URL; ?>js/carousel.js?v=20260716-3"></script>
     <?php endif; ?>
     <?php if (isset($use_carouselParque) && $use_carouselParque): ?>
-        <script defer src="<?php echo SITE_URL; ?>js/carouselParque.js?v=<?php echo filemtime('carouselParque.js'); ?>">
-        </script>
+    <script defer
+        src="http://localhost/starpark_web/source/js/carouselParque.js?v=<?php echo filemtime('carouselParque.js'); ?>">
+    </script>
     <?php endif; ?>
     <meta name="theme-color" content="#314c9c">
 </head>

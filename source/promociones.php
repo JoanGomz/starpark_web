@@ -246,7 +246,7 @@ $medios_promociones = [
         }
     }
 
-    @media(min-width:450px) and (max-width:500px) {
+    @media(min-width:440px) and (max-width:500px) {
         .promo-carosuel-container {
             overflow: hidden;
         }
@@ -286,7 +286,7 @@ $medios_promociones = [
         }
 
         .fooder-promo img {
-            top: -37rem;
+            top: -32rem;
             transform: rotate(1deg);
         }
 
