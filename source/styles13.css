@@ -6660,7 +6660,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 }
 
 .terminos:checked::before {
-	content: "âœ“";
+	content: "✓";
 	position: absolute;
 	top: 50%;
 	left: 50%;
