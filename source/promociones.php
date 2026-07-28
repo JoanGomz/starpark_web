@@ -23,7 +23,6 @@ $medios_promociones = [
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
     }
 
     .boton-centro {

@@ -88,7 +88,7 @@ function cargarMediosCarrusel(galeriaSelector, itemsSelector) {
 
       if (isVideo) {
         content = document.createElement("video");
-        content.classList.add("park-image-media-service");
+        content.classList.add("park-image-media");
         content.controls = false;
         content.preload = "metadata";
         content.autoplay = true;
