@@ -3304,7 +3304,8 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 	transition: all .3s ease;
 	display: flex;
 	align-items: center;
-	justify-content: center
+	justify-content: center;
+	z-index:4;
 }
 
 .carousel-container .carousel .carousel-controls .carousel-prev:hover,
