@@ -154,6 +154,33 @@ $medios_promociones = [
         transform: scale(1.1);
     }
 
+    @media (max-width: 414px) and (max-width: 427px) {
+        .promo-carousel-items .park-carousel-item {
+            width: 250px;
+            height: 176px;
+        }
+
+        .promo-carosuel-container {
+            width: 90%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .promo-carousel-items .park-carousel-item.active {
+            position: relative;
+            top: 2rem;
+        }
+
+        .boton-centro {
+            top: -16.5rem;
+        }
+
+        .carousel-controls {
+            top: -24.6rem;
+            gap: 2rem;
+        }
+    }
+
     @media (max-width: 430px) {
         .park-image-media-promo {
             width: 162%;

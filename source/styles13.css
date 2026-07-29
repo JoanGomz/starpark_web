@@ -1617,7 +1617,8 @@ body {
 	border-radius: .25rem;
 	position: relative;
 	outline: none;
-	top: .6rem
+	top: .6rem;
+	z-index: 5;
 }
 
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-form-terms input[type=checkbox]:checked {
@@ -1651,6 +1652,7 @@ body {
 	position: relative;
 	left: -16.6rem;
 	top: 1.5rem;
+	z-index: 5;
 }
 
 .contact-panel .formulario-contacto .main-contact-form .contact-form-container .contact-form .contact-register-btn {
@@ -8141,7 +8143,7 @@ background-image: url("../images/fotos/Home/imagenes/BACKGROUND.webp");
 
 .fooder-promo {
 	position: relative;
-	top: -6rem;
+	top: 36rem;
 	transform: rotate(1deg);
 	z-index: 13;
 }
