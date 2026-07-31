@@ -195,14 +195,14 @@ include_once '../includes/head.php';
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-solid fa-circle-user"></i>
-                                    <input type="text" name="nombre" required>
+                                    <input type="text" name="Nombre" required>
                                     <label>Nombres...</label>
                                 </div>
                             </div>
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-regular fa-circle-user"></i>
-                                    <input type="text" name="apellido" required>
+                                    <input type="text" name="Apellido" required>
                                     <label>Apellidos...</label>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ include_once '../includes/head.php';
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <input type="email" name="email" required>
+                                    <input type="email" name="Email" required>
                                     <label>Email...</label>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@ include_once '../includes/head.php';
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <input type="text" name="direccion" required>
+                                    <input type="text" name="Barrio" required>
                                     <label>Barrio...</label>
                                 </div>
                             </div>
@@ -230,8 +230,8 @@ include_once '../includes/head.php';
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-solid fa-phone-flip"></i>
-                                    <input class="number" type="tel" name="telefono" required>
-                                    <label>Telefono...</label>
+                                    <input class="number" type="tel" name="Celular" required>
+                                    <label>Celular...</label>
                                 </div>
                             </div>
                         </div>
@@ -240,19 +240,19 @@ include_once '../includes/head.php';
                             <div class="contact-form-input">
                                 <div class="contact-input-icon">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <select id="ubicacion" name="ubicacion" required>
+                                    <select id="ubicacion" name="Parque" required>
                                         <option value="" disabled selected></option>
-                                        <option value="altavista">Altavista</option>
-                                        <option value="bulevar_niza">Bulevar Niza</option>
-                                        <option value="hayuelos">Hayuelos</option>
-                                        <option value="paseo_villa_del_rio">Paseo Villa del Río</option>
-                                        <option value="bello">Bello</option>
-                                        <option value="cali">Cali</option>
-                                        <option value="mayorca">Mayorca</option>
-                                        <option value="mosquera">Mosquera</option>
-                                        <option value="neiva">Neiva</option>
-                                        <option value="cucuta">Cucuta</option>
-                                        <option value="villavicencio">Villavicencio</option>
+                                        <option value="Altavista">Altavista</option>
+                                        <option value="Bulevar Niza">Bulevar Niza</option>
+                                        <option value="Hayuelos">Hayuelos</option>
+                                        <option value="Paseo Villa Del Rio">Paseo Villa del Río</option>
+                                        <option value="Bello">Bello</option>
+                                        <option value="Cali">Cali</option>
+                                        <option value="Mayorca">Mayorca</option>
+                                        <option value="Mosquera">Mosquera</option>
+                                        <option value="Neiva">Neiva</option>
+                                        <option value="Cucuta">Cucuta</option>
+                                        <option value="Villavicencio">Villavicencio</option>
                                     </select>
                                     <label>Selecciona Sede...</label>
                                 </div>
@@ -260,17 +260,17 @@ include_once '../includes/head.php';
                         </div>
                         <div class="comments">
                             <div class="contact-form-input-file">
-                                <input type="file" name="archivo" id="archivo" class="comentarios" required>
+                                <input type="file" name="Archivo" id="archivo" class="comentarios" required>
 
                                 <label for="archivo" class="custom-file-upload">
                                     <i class="fa-solid fa-cloud-arrow-up"></i>
-                                    <span id="file-name">Subir Hoja de Vida / Archivo...</span>
+                                    <span id="file-name">Subir Hoja de Vida / Archivo... MAX 5 MB</span>
                                 </label>
                             </div>
                         </div>
 
                         <div class="contact-form-terms">
-                            <input type="checkbox" id="terminos" name="terminos" required>
+                            <input type="checkbox" id="terminos" name="Terminos" required>
                             <label for="terminos">Aplican Términos Y Condiciones.<br>
                             </label>
                             <a href="politica.php">https://www.starpark.com.co/politica</a>
