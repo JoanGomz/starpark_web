@@ -5,10 +5,11 @@ $use_carouselParque = true; // Se eliminó la duplicación
 include_once '../includes/head.php';
 
 $medios_promociones = [
-    'https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1787610040_PROMO-1.jpg',
-    'https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1787610054_PROMO-2.jpg',
-    'https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1787610070_PROMO-3.jpg',
-    'https://bucketmarketingstarpark.s3.amazonaws.com/chat-files/1787610090_PROMO-4.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783068_SUPER-DIVERSION.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783331_PALOMITAS.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783352_item_6abd2f781b778.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783369_item_6abd2f89512b0.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783391_item_6abd2f9f1be76.jpg'
 ];
 ?>
 <style>
