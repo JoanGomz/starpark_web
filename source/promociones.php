@@ -5,11 +5,12 @@ $use_carouselParque = true; // Se eliminó la duplicación
 include_once '../includes/head.php';
 
 $medios_promociones = [
-    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783068_SUPER-DIVERSION.jpg',
-    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783331_PALOMITAS.jpg',
-    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783352_item_6abd2f781b778.jpg',
-    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783369_item_6abd2f89512b0.jpg',
-    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1790783391_item_6abd2f9f1be76.jpg'
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793900002_PROMO1.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793901155_PROMO2.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793900622_PROMO3.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793900651_item_6aecc06b9a3e6.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793900679_item_6aecc08751451.jpg',
+    'https://s3.amazonaws.com/awslegalspoon/Eventrix/invoices/1793901172_item_6aecc274396ef.jpg'
 ];
 ?>
 <style>
@@ -376,7 +377,7 @@ $medios_promociones = [
             <div class="promo-carousel-container">
 
                 <!-- Sanitización correcta del JSON mediante htmlspecialchars -->
-                <div class="galeria-container-promo"
+                <div style="position:relative; top:3rem;" class="galeria-container-promo"
                     data-imagenes="<?php echo htmlspecialchars(json_encode($medios_promociones), ENT_QUOTES, 'UTF-8'); ?>">
                     <article class="promo-carousel">
 
